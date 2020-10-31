@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOPS QUIZ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Oswald', sans-serif;
+        }
+        .option-wrapper{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 5px;
+            
+        }
+        .question{
+            display: flex;
+            justify-content: center;
+        }
+        .question-set{
+            margin: 5px;
+            border: solid 1px black;
+            border-radius: 5px;
+            font-size:larger ;
+        }
+    </style>
+</head>
+<body style="background-color: #9ba4b4;">
+
+    <div id="head-wrapper" style="background-color: #14274e; height: 10vh;">
+        <h1 style="color: white; text-align: center; font-size: 75px;">
+            OOP QUIZ
+        </h1>
+    </div>
+
+    <div id="question-wrapper" style="width: 50%; margin-left: 25%; background-color: antiquewhite;">
+        <div class="question-set">
+            <div class="question">
+                <p>
+                Which of the following type of class allows only one object of it to be created?
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">  	Virtual class
+                <input type="checkbox">Abstract class
+                <input type="checkbox"> Friend class
+                <input type="checkbox" onclick="score()"> Singleton class
+            </div>
+        </div>
+        
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                     	
+
+Which of the following is not a type of constructor?
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox" onclick="score()"> Friend constructor
+                <input type="checkbox"> Copy constructor
+                <input type="checkbox"> Default constructor
+                <input type="checkbox"> Parameterized constructor
+            </div>
+        </div>
+      
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p> 	
+
+                    Which of the following statements is correct?
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox"> Base class pointer cannot point to derived class.
+                <input type="checkbox" onclick="score()"> Derived class pointer cannot point to base class.
+                <input type="checkbox"> Pointer to derived class cannot be created.
+                <input type="checkbox"> Pointer to base class cannot be created.
+            </div>
+        </div>
+
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Which of the following is not the member of class?
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox"> Static function
+                <input type="checkbox"> Const function
+                <input type="checkbox">Virtual function
+                <input type="checkbox" onclick="score()"> Friend function
+            </div>
+        </div>
+        
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+      
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+            </div>
+        </div>
+        
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+      
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+            </div>
+        </div>
+        
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+      
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+            </div>
+        </div>
+        
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+      
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+            </div>
+        </div>
+        
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+      
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+            </div>
+        </div>
+        
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+      
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+            </div>
+        </div>
+        
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+      
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+            </div>
+        </div>
+        
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+      
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+            </div>
+        </div>
+        
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+      
+        <!--  -->
+        <div class="question-set">
+            <div class="question">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nulla.
+                </p>
+            </div>
+            <div class="option-wrapper">
+                <input type="checkbox">
+                <input type="checkbox" onclick="score()">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+    </div>
+
+    
+
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>
